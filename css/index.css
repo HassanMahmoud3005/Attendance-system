@@ -1,0 +1,28 @@
+body {
+  background-color: #24353f;
+}
+
+#submit {
+  outline: 2px solid #1aa2b8;
+  color: white;
+}
+
+#submit:hover {
+  background-color: #1aa2b8;
+}
+#update {
+  outline: 2px solid #1aa2b8;
+  color: white;
+}
+
+#update:hover {
+  background-color: #1aa2b8;
+}
+
+#search::placeholder {
+  color: #999;
+}
+
+input::placeholder {
+  color: #999;
+}
