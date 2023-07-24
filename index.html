@@ -18,7 +18,7 @@
     <script>
       AOS.init();
     </script>
-    <h1 class="text-center" style="color: #1AA2B8;">Attendance system</h1>
+    <h1 class="text-center my-4 display-1 fw-bold" style="color: #1AA2B8; filter: drop-shadow(0 0 5px black);" data-aos="zoom-in" data-aos-duration="1500">Attendance system</h1>
     <div class="total d-flex flex-column my-5 mx-5 justify-content-center">
       <label for="name" style="color: #1AA2B8;">Name</label>
       <input  type="text" id="name" oninput="regexName()" class="form-control"  placeholder="Enter the name first capital letter">
@@ -40,7 +40,7 @@
     </div>
     <input oninput="searchfn()" style="background-color: #24353f;" type="search" placeholder="search" id="search" class="w-75 mx-auto d-block form-control my-4">
 
-    <div>
+    <div class="table-responsive">
       <table class="table">
         <thead>
           <tr id="title">
@@ -52,32 +52,10 @@
             <th style="color: #1aa2b8;">Delete</th>
           </tr>
         </thead>
-
-
         <tbody id="explan">
-        
         </tbody>
-
-
-
-
-
-
-
-      </table>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
+</table>
+</div>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="js/index.js"></script>
     </body>
