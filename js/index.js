@@ -70,6 +70,8 @@ function Update(element) {
 
 function updateTable() {
   indexPro = index;
+  if (regexName() == true && regexEmail() == true && regexNumber() == true) {
+  
   var productValue = {
     name: inputName.value,
     email: inputEmail.value,
@@ -81,6 +83,7 @@ function updateTable() {
   clear();
   submit.classList.remove("d-none");
   update.classList.add("d-none");
+}
 }
 
 function searchfn() {
