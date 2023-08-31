@@ -47,9 +47,9 @@ function display() {
 }
 
 function clear() {
-  inputName.value = " ";
-  email.value = " ";
-  number.value = " ";
+  inputName.value = "";
+  email.value = "";
+  number.value = "";
 }
 
 function Delete(i) {
